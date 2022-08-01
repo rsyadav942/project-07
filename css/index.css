@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Fredoka One';
+    font-weight: 100;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+[alt="logo"] {
+    width: 100px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.active-item {
+    color: #fd663f;
+}
+
+.nav-items > h5 {
+    font-size: 18px;
+    margin: 0px 40px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+[alt="circles"] {
+    width: 40px;
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.sub-headline {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 6%;
+    padding-top: 5%;
+}
+
+.headphone-div {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 60%;
+    left: -7%;
+    width: 150px;
+}
+
+.discount-content {
+    position: absolute;
+    top: 68%;
+    font-size: 17px;
+    left: 1%;
+    color: #fff;
+}
+
+[alt="plus"] {
+    background-color: #fd663f;
+    color: #fff;
+    border: 2px solid #fd663f;
+    border-radius: 50%;
+    padding: 4px;
+    width: 12px;
+}
+
+.discount-content > h1 {
+    font-size: 45px;
+}
+
+.text {
+    margin: 5% 10% 5% 0%;
+}
+
+.action-btns {
+    margin-top: 5%;
+}
+
+.action-btn {
+    border: 2px solid #fd663f;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #fd663f;
+    color: #fff;
+    margin-right: 25px;
+}
+
+.dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 10px;
+} 
+
+.yellow-dot {
+    border: 2px solid #fad004;
+    background-color: #fad004;
+}
+
+.tomato-dot {
+    border: 2px solid #fe5e35;
+    background-color: #fe5e35;
+}
+
+.black-dot {
+    border: 2px solid #000000;
+    background-color: #000000;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-section > .action-btn {
+    margin-top: 5%;
+    margin-right: 0px;
+}
+
+[alt="headphone"] {
+    height: 500px;
+}
